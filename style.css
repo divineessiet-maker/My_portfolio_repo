@@ -1,0 +1,137 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #df3f0e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header-title {
+  margin: 0;
+}
+
+header-subtitle {
+  margin: 5px 0 15px;
+  font-style: italic;
+}
+
+
+/* ===== Navbar ===== */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline; /* makes links inline */
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background: #fff;
+  color: #222;
+}
+
+/* ===== Sections ===== */
+section {
+  background-color: #ececcae8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+
+section h2 {
+  border-bottom: 2px solid #df1919;
+  padding-bottom: 5px;
+  color: #0e0d0d;
+}
+section p{
+    color: #1a1919;
+}
+
+/* ===== Skills List ===== */
+section ul {
+  padding-left: 20px;
+}
+
+/* ===== Work Articles ===== */
+article {
+  border-left: 4px solid #eee3e3;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* ===== Resume Table ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #d63013;
+  color: #fff;
+}
+
+/* ===== Contact Form ===== */
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #eb3d11;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #d8caca;
+  color: #d41e1e;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #d14a14;
+ 
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
